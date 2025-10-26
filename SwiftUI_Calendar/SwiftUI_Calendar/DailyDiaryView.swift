@@ -13,9 +13,9 @@ struct DailyDiaryView: View {
     var body: some View {
         VStack {
             // 選擇日期
-            CalendarHeaderView(vm: vm)
+            //CalendarHeaderView(vm: vm)
             // 分隔線
-            Divider()
+            //Divider()
                 //.padding(.vertical, 8)
             // 切換列：週 / 月 / < / > 切換按鈕
             CalendarSwitcherView(vm: vm)
